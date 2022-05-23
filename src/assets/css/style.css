@@ -1,0 +1,106 @@
+.section{
+    width: 535px;
+    margin-top: 50px;
+    margin-left: 31%;
+}
+.heading{
+    color: #fff;
+    text-align: center;
+}
+.heading-text{
+    color: #fff;
+    text-align: center;
+}
+.countdown{
+    background-color: #fff;
+    width: 100px;
+    height: 120px;
+    border: none;
+    /* padding: 5px; */
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    margin: 15px;
+}
+.input-name{
+    margin: 27px;
+    border: none;
+    outline: 0;
+    height: 25px;
+    color: rgb(148, 144, 144);
+    background-color: #1e0040;
+    
+    border-bottom: 1px solid rgb(148, 144, 144);
+}
+.input-name:focus{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    box-shadow: 1px 1px 3px 1px rgb(148, 144, 144);
+    transform: translateY(-1px);
+}
+.input-email{
+    margin-left: 20px;
+    height: 35px;
+    width: 340px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    float: left;
+    border: none;
+    background-color: #fff;
+}
+.input-button{
+    float: left;
+    height: 40px;
+    width: 220px;
+    /* padding: 15px; */
+    margin-left: -70px;
+    color: #fff ;
+    background-color: #271ac1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+}
+.input-button:hover{
+    color: #271ac1 ;
+    background-color: #fff;
+    border: 1px solid #271ac1;
+    cursor: pointer;
+}
+.dialog-input{
+    margin: 27px;
+    border: none;
+    outline: 0;
+    height: 40px;
+    width: 300px;
+    color: rgb(148, 144, 144);
+    background-color: #fff;
+    border-radius: 10px;
+}
+.dialog-textarea{
+    margin: 27px;
+    border: none;
+    outline: 0;
+    height: 40px;
+    width: 300px;
+    color: rgb(148, 144, 144);
+    background-color: #fff;
+    border-radius: 10px;
+}
+.dialog-close{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: none;
+    color: #1e0040;
+}
+.dialog-close:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #271ac1;
+    border: 1px solid #fff;
+}

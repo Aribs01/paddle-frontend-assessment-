@@ -1,0 +1,67 @@
+.topbar {
+    width: 100%;
+    height: 100px;
+    background-color: #1e0040;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.logocontainer{
+    left: 60px;
+    position: relative;
+}
+.logo {
+    color: white;
+    width: 140px;
+}
+
+.navbutton {
+    border: none;
+    outline: none;
+    background: #1e0040;
+    height: 45px;
+    width: 130px;
+    left: 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbutton:hover {
+    color: #1e0040;
+    background-color: #fff;
+    border: 1px solid #1e0040;
+}
+
+.contactbutton{
+    border: none;
+    outline: none;
+    background: #271ac1;
+    height: 45px;
+    width: 180px;
+    left: 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.contactbutton:hover {
+    color: #271ac1;
+    background-color: #fff;
+    border: 1px solid #271ac1;
+}
+
+.timecontainer{
+    right: 150px;
+    position: absolute;
+}
